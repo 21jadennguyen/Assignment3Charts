@@ -15,8 +15,8 @@ class Child1 extends Component {
     this.renderChart();
   }
 
-  renderChart(){
-    var data = this.props.data
+  renderChart() {
+    var data = this.props.data;
 
     var margin = { top: 50, right: 10, bottom: 90, left: 30 },
       width = 500 - margin.left - margin.right,

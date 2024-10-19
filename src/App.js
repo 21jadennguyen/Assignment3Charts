@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('/tips.csv')
+    fetch(require('./tips.csv'))
       .then((response) => response.text())
       .then((csvText) => {
         const parsedData = d3.csvParse(csvText);
@@ -30,10 +30,12 @@ class App extends Component {
     const { data } = this.state;
     return (
       <div className="App">
-        <div className="container-class">
-          <Child1 data={data} />
-          <Child2 data={data} />
-        </div>
+        {data.length > 0 && (
+          <div className="container-class">
+            <Child1 data={data} />
+            <Child2 data={data} />
+          </div>
+        )}
       </div>
     );
   }
