@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Assignment3Charts/static/css/main.1cb2f2dc.css",
-    "main.js": "/Assignment3Charts/static/js/main.f5eeb7f1.js",
+    "main.js": "/Assignment3Charts/static/js/main.cc7e5aa0.js",
     "static/js/453.ad32e25e.chunk.js": "/Assignment3Charts/static/js/453.ad32e25e.chunk.js",
+    "static/media/tips.csv": "/Assignment3Charts/static/media/tips.43007c7e472255eef549.csv",
     "index.html": "/Assignment3Charts/index.html",
     "main.1cb2f2dc.css.map": "/Assignment3Charts/static/css/main.1cb2f2dc.css.map",
-    "main.f5eeb7f1.js.map": "/Assignment3Charts/static/js/main.f5eeb7f1.js.map",
+    "main.cc7e5aa0.js.map": "/Assignment3Charts/static/js/main.cc7e5aa0.js.map",
     "453.ad32e25e.chunk.js.map": "/Assignment3Charts/static/js/453.ad32e25e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cb2f2dc.css",
-    "static/js/main.f5eeb7f1.js"
+    "static/js/main.cc7e5aa0.js"
   ]
 }
